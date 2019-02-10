@@ -1,0 +1,954 @@
+{
+  "config": {
+    "output_file": null,
+    "full_docs": false,
+    "pub_only": false,
+    "reachable_only": false,
+    "distro_crate": false,
+    "signatures": false,
+    "borrow_data": false
+  },
+  "version": "0.18.1",
+  "compilation": {
+    "directory": [
+      47,
+      104,
+      111,
+      109,
+      101,
+      47,
+      104,
+      45,
+      109,
+      105,
+      99,
+      104,
+      97,
+      101,
+      108,
+      47,
+      103,
+      104,
+      113,
+      47,
+      103,
+      105,
+      116,
+      104,
+      117,
+      98,
+      46,
+      99,
+      111,
+      109,
+      47,
+      104,
+      45,
+      109,
+      105,
+      99,
+      104,
+      97,
+      101,
+      108,
+      47,
+      115,
+      97,
+      118,
+      101,
+      95,
+      97,
+      110,
+      97,
+      108,
+      121,
+      115,
+      105,
+      115,
+      95,
+      101,
+      120,
+      97,
+      109,
+      112,
+      108,
+      101,
+      47,
+      115,
+      114,
+      99
+    ],
+    "program": "/home/h-michael/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rustc",
+    "arguments": [
+      "-Zsave-analysis",
+      "main.rs",
+      "--color",
+      "always"
+    ],
+    "output": [
+      109,
+      97,
+      105,
+      110
+    ]
+  },
+  "prelude": {
+    "crate_id": {
+      "name": "main",
+      "disambiguator": [
+        3566085715814566000,
+        9444397947401218000
+      ]
+    },
+    "crate_root": "",
+    "external_crates": [
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 1,
+        "id": {
+          "name": "std",
+          "disambiguator": [
+            8265009444527308000,
+            7194518985765690000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 2,
+        "id": {
+          "name": "core",
+          "disambiguator": [
+            7202744723982498000,
+            5331430424743903000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 3,
+        "id": {
+          "name": "compiler_builtins",
+          "disambiguator": [
+            4150532331663477000,
+            4512634110994864600
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 4,
+        "id": {
+          "name": "rustc_std_workspace_core",
+          "disambiguator": [
+            13401168369575990000,
+            6985371786967755000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 5,
+        "id": {
+          "name": "alloc",
+          "disambiguator": [
+            7598631961856314000,
+            12568505469791156000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 6,
+        "id": {
+          "name": "libc",
+          "disambiguator": [
+            12341064801760940000,
+            3506842193098077000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 7,
+        "id": {
+          "name": "rustc_demangle",
+          "disambiguator": [
+            4887010864366019000,
+            1479986073120990200
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 8,
+        "id": {
+          "name": "unwind",
+          "disambiguator": [
+            7875147080199014000,
+            11981640448293745000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 9,
+        "id": {
+          "name": "backtrace_sys",
+          "disambiguator": [
+            17450918474149247000,
+            15692926402825239000
+          ]
+        }
+      },
+      {
+        "file_name": "/home/h-michael/ghq/github.com/h-michael/save_analysis_example/src/main.rs",
+        "num": 10,
+        "id": {
+          "name": "panic_unwind",
+          "disambiguator": [
+            13005742881184737000,
+            11812580933371568000
+          ]
+        }
+      }
+    ],
+    "span": {
+      "file_name": [
+        109,
+        97,
+        105,
+        110,
+        46,
+        114,
+        115
+      ],
+      "byte_start": 0,
+      "byte_end": 294,
+      "line_start": 1,
+      "line_end": 18,
+      "column_start": 1,
+      "column_end": 2
+    }
+  },
+  "imports": [],
+  "defs": [
+    {
+      "kind": "Mod",
+      "id": {
+        "krate": 0,
+        "index": 0
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 0,
+        "byte_end": 294,
+        "line_start": 1,
+        "line_end": 18,
+        "column_start": 1,
+        "column_end": 2
+      },
+      "name": "",
+      "qualname": "::",
+      "value": "main.rs",
+      "parent": null,
+      "children": [
+        {
+          "krate": 0,
+          "index": 2
+        },
+        {
+          "krate": 0,
+          "index": 4
+        },
+        {
+          "krate": 0,
+          "index": 6
+        },
+        {
+          "krate": 0,
+          "index": 8
+        },
+        {
+          "krate": 0,
+          "index": 10
+        }
+      ],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Function",
+      "id": {
+        "krate": 0,
+        "index": 6
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 3,
+        "byte_end": 7,
+        "line_start": 1,
+        "line_end": 1,
+        "column_start": 4,
+        "column_end": 8
+      },
+      "name": "main",
+      "qualname": "::main",
+      "value": "fn () -> ()",
+      "parent": null,
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Local",
+      "id": {
+        "krate": 0,
+        "index": 4294967275
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 53,
+        "byte_end": 58,
+        "line_start": 3,
+        "line_end": 3,
+        "column_start": 9,
+        "column_end": 14
+      },
+      "name": "kiske",
+      "qualname": "kiske$20",
+      "value": "Person",
+      "parent": null,
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Struct",
+      "id": {
+        "krate": 0,
+        "index": 8
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 97,
+        "byte_end": 103,
+        "line_start": 6,
+        "line_end": 6,
+        "column_start": 8,
+        "column_end": 14
+      },
+      "name": "Person",
+      "qualname": "::Person",
+      "value": "Person { name, age }",
+      "parent": null,
+      "children": [
+        {
+          "krate": 0,
+          "index": 19
+        },
+        {
+          "krate": 0,
+          "index": 21
+        }
+      ],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Field",
+      "id": {
+        "krate": 0,
+        "index": 19
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 114,
+        "byte_end": 118,
+        "line_start": 7,
+        "line_end": 7,
+        "column_start": 9,
+        "column_end": 13
+      },
+      "name": "name",
+      "qualname": "::Person::name",
+      "value": "std::string::String",
+      "parent": {
+        "krate": 0,
+        "index": 8
+      },
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Field",
+      "id": {
+        "krate": 0,
+        "index": 21
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 136,
+        "byte_end": 139,
+        "line_start": 8,
+        "line_end": 8,
+        "column_start": 9,
+        "column_end": 12
+      },
+      "name": "age",
+      "qualname": "::Person::age",
+      "value": "u32",
+      "parent": {
+        "krate": 0,
+        "index": 8
+      },
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Local",
+      "id": {
+        "krate": 0,
+        "index": 4294967252
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 174,
+        "byte_end": 178,
+        "line_start": 12,
+        "line_end": 12,
+        "column_start": 12,
+        "column_end": 16
+      },
+      "name": "name",
+      "qualname": "<Person>::new::name",
+      "value": "&str",
+      "parent": null,
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Local",
+      "id": {
+        "krate": 0,
+        "index": 4294967247
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 186,
+        "byte_end": 189,
+        "line_start": 12,
+        "line_end": 12,
+        "column_start": 24,
+        "column_end": 27
+      },
+      "name": "age",
+      "qualname": "<Person>::new::age",
+      "value": "u32",
+      "parent": null,
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    },
+    {
+      "kind": "Method",
+      "id": {
+        "krate": 0,
+        "index": 12
+      },
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 170,
+        "byte_end": 173,
+        "line_start": 12,
+        "line_end": 12,
+        "column_start": 8,
+        "column_end": 11
+      },
+      "name": "new",
+      "qualname": "<Person>::new",
+      "value": "fn (name: &str, age: u32) -> Person",
+      "parent": null,
+      "children": [],
+      "decl_id": null,
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    }
+  ],
+  "impls": [
+    {
+      "id": 0,
+      "kind": "Inherent",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 154,
+        "byte_end": 160,
+        "line_start": 11,
+        "line_end": 11,
+        "column_start": 6,
+        "column_end": 12
+      },
+      "value": "",
+      "parent": null,
+      "children": [
+        {
+          "krate": 0,
+          "index": 12
+        }
+      ],
+      "docs": "",
+      "sig": null,
+      "attributes": []
+    }
+  ],
+  "refs": [
+    {
+      "kind": "Function",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 24,
+        "byte_end": 27,
+        "line_start": 2,
+        "line_end": 2,
+        "column_start": 13,
+        "column_end": 16
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 12
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 16,
+        "byte_end": 22,
+        "line_start": 2,
+        "line_end": 2,
+        "column_start": 5,
+        "column_end": 11
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 8
+      }
+    },
+    {
+      "kind": "Function",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 69,
+        "byte_end": 72,
+        "line_start": 3,
+        "line_end": 3,
+        "column_start": 25,
+        "column_end": 28
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 12
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 61,
+        "byte_end": 67,
+        "line_start": 3,
+        "line_end": 3,
+        "column_start": 17,
+        "column_end": 23
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 8
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 120,
+        "byte_end": 126,
+        "line_start": 7,
+        "line_end": 7,
+        "column_start": 15,
+        "column_end": 21
+      },
+      "ref_id": {
+        "krate": 5,
+        "index": 5584
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 154,
+        "byte_end": 160,
+        "line_start": 11,
+        "line_end": 11,
+        "column_start": 6,
+        "column_end": 12
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 8
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 199,
+        "byte_end": 205,
+        "line_start": 12,
+        "line_end": 12,
+        "column_start": 37,
+        "column_end": 43
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 8
+      }
+    },
+    {
+      "kind": "Type",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 216,
+        "byte_end": 222,
+        "line_start": 13,
+        "line_end": 13,
+        "column_start": 9,
+        "column_end": 15
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 8
+      }
+    },
+    {
+      "kind": "Variable",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 237,
+        "byte_end": 241,
+        "line_start": 14,
+        "line_end": 14,
+        "column_start": 13,
+        "column_end": 17
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 19
+      }
+    },
+    {
+      "kind": "Function",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 248,
+        "byte_end": 257,
+        "line_start": 14,
+        "line_end": 14,
+        "column_start": 24,
+        "column_end": 33
+      },
+      "ref_id": {
+        "krate": 5,
+        "index": 4398
+      }
+    },
+    {
+      "kind": "Variable",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 243,
+        "byte_end": 247,
+        "line_start": 14,
+        "line_end": 14,
+        "column_start": 19,
+        "column_end": 23
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 4294967252
+      }
+    },
+    {
+      "kind": "Variable",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 273,
+        "byte_end": 276,
+        "line_start": 15,
+        "line_end": 15,
+        "column_start": 13,
+        "column_end": 16
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 21
+      }
+    },
+    {
+      "kind": "Variable",
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 273,
+        "byte_end": 276,
+        "line_start": 15,
+        "line_end": 15,
+        "column_start": 13,
+        "column_end": 16
+      },
+      "ref_id": {
+        "krate": 0,
+        "index": 4294967247
+      }
+    }
+  ],
+  "macro_refs": [],
+  "relations": [
+    {
+      "span": {
+        "file_name": [
+          109,
+          97,
+          105,
+          110,
+          46,
+          114,
+          115
+        ],
+        "byte_start": 154,
+        "byte_end": 160,
+        "line_start": 11,
+        "line_end": 11,
+        "column_start": 6,
+        "column_end": 12
+      },
+      "kind": {
+        "variant": "Impl",
+        "fields": [
+          0
+        ]
+      },
+      "from": {
+        "krate": 0,
+        "index": 8
+      },
+      "to": {
+        "krate": 4294967295,
+        "index": 4294967295
+      }
+    }
+  ]
+}
